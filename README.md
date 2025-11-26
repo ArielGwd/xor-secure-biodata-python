@@ -86,7 +86,7 @@ CREATE TABLE biodata (
 Gunakan:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 Aplikasi dapat diakses pada:
