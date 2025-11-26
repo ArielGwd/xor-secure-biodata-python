@@ -259,13 +259,3 @@ Fungsi ini membuka kembali ciphertext menjadi plaintext.
 * Jika key terlalu pendek → bisa diprediksi
 * Tidak cocok untuk data yang memerlukan enkripsi profesional-level
 
----
-
-## 📌 9. Catatan Sistem
-
-* Perubahan file `.env` membutuhkan restart server FastAPI.
-* Jangan commit `.env` ke repository.
-* Ganti `APP_SECRET` secara berkala.
-
-
-
