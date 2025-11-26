@@ -24,7 +24,7 @@ def get_biodata(id: int, db: Session = Depends(get_db)):
         raise HTTPException(404, "Not found")
     return result
 
-@router.post("/")
+@router.post("")
 def create_biodata(payload: BiodataCreate, db: Session = Depends(get_db)):
     obj = BiodataService.create(db, payload)
     return {"id": obj.id, "status": "success"}
