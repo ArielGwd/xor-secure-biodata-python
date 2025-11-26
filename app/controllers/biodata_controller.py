@@ -13,7 +13,7 @@ def get_db():
     finally:
         db.close()
 
-@router.get("/")
+@router.get("")
 def all_biodata(db: Session = Depends(get_db)):
     return BiodataService.get_all(db)
 
