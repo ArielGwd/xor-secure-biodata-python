@@ -127,7 +127,7 @@ ketika di ubah env maka hasilnya terenkripsi seperti berikut:
 
 ---
 
-## 🔐 8. Penjelasan Kriptografi Simetris: Stream XOR
+## 7. Penjelasan Kriptografi Simetris: Stream XOR
 
 Aplikasi ini menggunakan **Stream XOR Encryption**, yaitu metode enkripsi simetris yang bekerja dengan:
 
@@ -168,7 +168,7 @@ Karena XOR memiliki sifat unik:
 (A XOR B) XOR B = A
 ```
 
-### 8.1 Penjelasan Kode XOR Encryption
+### 7.1 Penjelasan Kode XOR Encryption
 
 Berikut penjelasan fungsi Python yang digunakan dalam aplikasi untuk melakukan enkripsi dan dekripsi menggunakan metode **Stream XOR**.
 
