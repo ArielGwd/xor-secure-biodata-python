@@ -3,7 +3,7 @@ import os
 
 load_dotenv()  
 
-SECRET_KEY = os.getenv("APP_SECRET_XOR_KEY")
+SECRET_KEY = os.getenv("APP_SECRET_XOR_KEY", 'lah')
 DB_USER = os.getenv("DATABASE_USER", "root")
 DB_PASSWORD = os.getenv("DATABASE_PASSWORD", "")
 DB_HOST = os.getenv("DATABASE_HOST", "localhost")
