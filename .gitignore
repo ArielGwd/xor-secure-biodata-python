@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+.env.local
+.env.development
+.env.production
+.env.test
+*.iml
+*.class
+*.jar
