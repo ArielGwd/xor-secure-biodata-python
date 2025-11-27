@@ -57,12 +57,11 @@ MYSQL_DB=YOUR_MYSQL_DB_NAME_HERE
 
 ## 4. Database
 
-Pastikan MySQL berjalan, lalu buat database:
+Pastikan MySQL **berjalan**, lalu buat database:
 
 ```sql
 CREATE DATABASE db_secure_xor;
 ```
-**-- or --** 
 
 kemudian import dari file [db_secure_xor.sql](./db_secure_xor.sql) yang ada di root project untuk membuat tabel.
 
